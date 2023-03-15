@@ -6,9 +6,9 @@ Openaai and Chatgpt requests without any library
 
 if you are not going to use chatgpt
 
-##completions
+## completions
 for "https://api.openai.com/v1/completions" change data like this. (response also change)
-
+```
 var data = {
         model: 'text-davinci-003',
         prompt: 'merhaba nasılsın open ai',
@@ -19,11 +19,11 @@ var data = {
         presence_penalty: 0.0,
         stop: ["#", ";"]
     }
+ ```   
     
-    
-##edits
+## edits
 for "https://api.openai.com/v1/edits" change data like this. (response also change)
-
+```
 var data = {
         model: "text-davinci-edit-001",
       input: "Burada bir yazm yanlışı varmı?",
@@ -31,3 +31,4 @@ var data = {
       temperature: 0.7,
       top_p: 1,
     }
+```
