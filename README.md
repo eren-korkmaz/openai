@@ -1,12 +1,12 @@
 # OpenAi and Chatgpt
-Openaai and Chatgpt requests without any library
+OpenAi and Chatgpt requests without any library javascript, php, asp
+
+==========================================================
 
 
+## if you are not going to use chatgpt
 
-
-if you are not going to use chatgpt
-
-## completions
+### use completions
 for "https://api.openai.com/v1/completions" change data like this. (response also change)
 ```
 var data = {
@@ -21,7 +21,7 @@ var data = {
     }
  ```   
     
-## edits
+## use edits
 for "https://api.openai.com/v1/edits" change data like this. (response also change)
 ```
 var data = {
