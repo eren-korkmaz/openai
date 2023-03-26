@@ -21,7 +21,7 @@ data = "{" & _
 	objHTTP.open "POST", "https://api.openai.com/v1/chat/completions", false
 	objHTTP.setRequestHeader "content-type", "application/json"
 	objHTTP.setRequestHeader "Accept", "application/json"
-	objHTTP.setRequestHeader "Authorization", "Bearer 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"
+	objHTTP.setRequestHeader "Authorization", "Bearer 123456"
 	objHTTP.send(data)
 	gnr_xmlhttp_request = objHTTP.responsetext
   %>
